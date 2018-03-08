@@ -12,5 +12,16 @@
 //
 //= require rails-ujs
 //= require turbolinks
+//= require jquery
+//= require jquery_ujs
 //= require_tree .
 //= require materialize
+//= require materialize-sprockets
+
+$(document).ready(function(){
+  $('.carousel.carousel-slider').carousel({fullWidth: true});
+});
+
+$(document).ready(function(){
+  $(".button-collapse").sideNav();
+});
