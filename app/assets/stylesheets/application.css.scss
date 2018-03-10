@@ -26,3 +26,15 @@ $secondary-color: color("yellow", "base") !default;
   color: #333 !important;
   text-align: center !important;
 }
+
+h3 {
+  text-align: center;
+  color: #7cc64b;
+  font-style: normal;
+  font-family: Luminari, fantasy;
+  background: url('wood.jpg');
+}
+
+body{
+  background: url('tobacco.png');
+}
